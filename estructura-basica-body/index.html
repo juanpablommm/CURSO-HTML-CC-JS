@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"> 
+	<meta  name="description" content="Curso de HTML, CSS, JS">
+	<meta name="author" content="juan pablo"/>
+	<meta name="keywords" content="html, css, diseño web, crear páginas"/>
+	<meta name="language" content="es"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Analizando curpo (body)</title>
+</head>
+
+<body><!-- tomando en cuenta que el contenido en si que se muestra en el pagina va denreo del body,
+anteriomente se utilizaba la etiqueta <table> para posicionar los elmentos y darle una esturctura a la pagina
+colocando imagenes, texto y demas dentro de las cledas de la tabla apesar que este no fue su porpocito
+*depues se utilizo la etiqueta <div> que simplenete se definia como un contenedor en el cual se colocaban
+varios elmentos y despues se pocicisonanab, pero HTML% nos provee de diferentes elementos para representar 
+una estructura simple que se maneja en la mayoria de los stios.
+
+considerando que se tiene en una pagina norma, las siguientes secciones o contenitos:
+
+*Cabezera(logo, titulos, subtitulos, corta descripcion del sitio) etiqueta <header></header>
+*barra de navegacion(botones, liks hacia demas paginas del sitio web, barra debusqueda) etieuta <nav></nav>
+*informacion principal(informacion principal del sitio, lista de articulos en el caso de un it comert) etiqueta <section></section>
+*barra lateral (informacion adicional a la principal, en el caso de un blog, links al autor, y demas) etiqueta <aside></aside>
+*institucional(pie de pagina, links de terminos y condiciones, informacionde la empresa, marca registrada) etiqeuta <footer></footer> --> 
+
+	<header><!-- emcabezado, declaro el titulo que se mostrara en la pagina con un <h1></h1>, adiferencia de <head></head>
+		que representa la cabecera del la pagina, pero desde el titulo de la pestaña y la informacion necesaria para los motores de busqueda, mas link para recursos de stilo y demas, el <header></header> nos prumueve la cabezera ddel la pagina
+		desde el lado visible, donde podemos agregar el titulo reflejado directamente en el html, subtitulos y breve 
+		descripcion de la pagina, como es la cabezera del cuerpo por asi decirlo debe de ir primero que los demas-->
+		<h1>Analizando la estructura basica del cuerpo</h1>
+	</header>
+	
+	<nav> <!-- barra de navegacion declaro con una lista desordenada para definir los items que tendra nustra
+		barra se navegacion, esta no es parte de la secion header, por lo que va por feura de ella, y deveria ir de segunda en 
+		el docuemnto dado el orden-->
+		<ul>
+			<li>principal</li>
+			<li>fotos</li>
+			<li>videos</li>
+			<li>contacto</li>
+		</ul>
+	</nav>
+	
+	<section><!-- contenido principal, coloco un parrafo con la etiqqueta <p></p> y hago un par de saltos de linea con <br>,
+		esta basicamente iria despues del la brra de navegacion, para acomodar el contenido principal tambien se podria dicidir por bloques en el que caso de ser requerido.
+		*en HTML5 para darle ubicacion y pocisionar los elementos lo haremos desde el lado de CSS-->
+		<p>curso de html, css, js, revisnado los conceptos basicos en la estrutura de una pagina web simple <br>
+		viendo, las etiquetas, header, nav, section, aside y footer</p>
+	</section>
+
+	<aside><!-- barra lateral, en esta se establce la informacion adicional al contenido principal(Section) pero que no
+	es relevante para el lector, como por ejemplo links de ayuda de navegacion para informacion del autor en un blog
+	informacion de fecha y demas..
+	*esta ubicada como su nombre lo dice al lateral del contenido principal, ya sea derecha o izauierda, pero se da
+	ese pocicionamiento mas adelnate con el CSS -->
+		<blockquote>Mensaje número uno</blockquote>
+		<blockquote>Mensaje número dos</blockquote>
+	</aside>
+
+	<footer><!-- institucional o pie de pagina, en este va el contenido sobre la empresa o desarrollador,
+	todo lo correspondiente con correos de contacto, terminos y condiciones, derechos de autor y demas.
+	Representa geralmente el final del docuemtno html -->
+		Derechos Reservados &copy; 2022
+	</footer>
+</body>
+</html>
