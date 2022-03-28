@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="curso de html, css, javascrip etiqueta hgroup">
+	<meta name="keywords" content="html, css, javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Etiqueta hgroup</title>
+</head>
+<body>
+	<header>
+		<h1>analizando la etiqueta hgroup</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>fotos</li>
+			<li>home</li>
+			<li>videos</li>
+		</ul>
+	</nav>
+	<section>
+		<article>
+			<header>
+				<!-- por propositos de procesamiento interno, y para evitar que el navegador cree multples seciones durante la interpletacion del documento, las etiquetas
+				h dentro de un header deben de ser agrupadas, por esta razon es que se crea la etiqueta hgroup.
+				Los navegadores y programas que permiten la visulizacion de documentos html, 
+				crean su propia estructura interna para intrepertar y porcesar cada elmento, lo cual hacen diviendo el contenido de este en seciones, seciones que no tienen nada que ver con la etiqueta section, estas son secciones conceptuales generadas durante la interpretacion del codigo, y como el elmento header no tiene estas seciones por si mismo, se crearan diferentes seciones dentro de el depentiendo de las etiquetas que contenga por lo que si tenemos varia etiquetas h en el se crearan varias seciones, pero si las agrupasmos dentro
+				de una etiqueta hgroup solo se creara una seccion para estas, por este motivo es que fue creada -->
+				<hgroup>
+					<h1>Titulo del article uno</h1>
+					<h2>Subtitulo del article uno</h2>
+				</hgroup>
+				<p>publicado 15-12-2011</p><!-- la informacion adicional 
+				que se encuentre dentro del header, se puede considerar meta-data
+				ya que es un conjunto de datos que promueben informacion adicional acerca de 
+				otros grupos de datos, como en este caso se prumuebe la informacion de cuando
+				due prublicado el comentario, en este ejemplo -->
+			</header>
+			<p>
+				Cuando trbajamos con cabeceras (header) que contiene mas de una <br>
+				etiqueta h, necesitamos utilizar la etiqueta hgroup <br>
+				pues esta como su nombre lo indica fue creada para agrupar etiqeutas h,<br>
+				lo que ayudara al navegador a escalar mejor la pagina,
+				sin envargo cabe resaltar que para cabeceras que solo tien una etiqueta
+				h no se utiliza, como en el caso del header del body
+			</p>
+			<footer>
+				<p>Comentarios (0)</p>
+			</footer>
+		</article>
+	</section>
+	<aside>
+		<blockquote>Mensaje número uno</blockquote>
+		<blockquote>Mensaje número dos</blockquote>
+	</aside>
+	<footer>
+		Derechos Reservados &copy; 2022
+	</footer>
+</body>
+</html>
