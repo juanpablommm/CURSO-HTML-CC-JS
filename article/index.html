@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="curso de html, css, javascript, etiquta Article">
+	<meta name="keywords" content="html, css, javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Etiqueta Article</title>
+</head>
+<body>
+	<header>
+		<h1>Etiqueta Article</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>Fotos</li>
+			<li>Vidoes</li>
+		</ul>
+	</nav>
+	<section>
+		<!-- los sitios web en su mayoria presenta la informacion relevante en partes, que conparten similares caracteristicas, *el elemento article nos permite identificar cada una de estas partes, al igual que las etiquetas body, son hijas del html, o el head es hija del html, las etiquetas article son hijas de section ya que esta es la que contine el contenido principal, y la idea es mostrar el contnido principal en 
+		partes, para ir dando una mejor estrcutura y pocicionamiento mas adelante
+
+		*esta etiqueta no se limita a su nombre (articulos), puede tener mucho mas que eso,
+		ya que fue creado con la intension de contener unidades independientes de contenido
+		que comparter caracterisiticas similares, por lo que puede incluir mensajes de fors, articulos de una revistas, comentarios de usuarios, etc,
+		(agrupa porciones de informacion que estan relacionadas entre si, independientemente de su naturaleza) -->
+		<article>
+			Este es el texto de mi primer mensaje
+		</article>
+		<!-- como una parte indenpendiente del documento, el contenido del cada article,
+		tendra su propia estructura por lo que podemos usar la versatilidad de las etiqeutas
+		header y footer, eso no solamanete los podemos usar para definir los limites del body,
+		si no que tambien los podemos usar para definir los limites de cualquier otra seccion. -->
+		<article>
+			<header>
+				<h1>Este es el titulo de mi article dos</h1>
+			</header>
+			Este es el texto de mi segundo mensaje
+			<footer>
+				<p>Comentarios (0)</p>
+			</footer>
+		</article>
+	</section>
+	<aside>
+		<blockquote>Mensaje número uno</blockquote>
+		<blockquote>Mensaje número dos</blockquote>
+	</aside>
+	<footer>
+		Derechos Reservados &copy; 2022
+	</footer>
+</body>
+</html>
