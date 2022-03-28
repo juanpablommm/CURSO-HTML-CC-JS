@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="curso de html, css y javascript  etiqeutas figure y figcaption">
+	<meta name="keywords"  content="html, csss, javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Etiquetas figure y figcaption</title>
+</head>
+<body>
+	<header>
+		<h1>Analisando etiquetas figure y figcaption</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>home</li>
+			<li>videos</li>
+			<li>fotos</li>
+		</ul>
+	</nav>
+	<section>
+		<header>
+			<hgroup>
+				<h1>Titulo del mensaje uno</h1>
+				<h2>Subtitulo del mensaje uno</h2>
+			</hgroup>
+			<p>publicado el 15-09-2011</p>
+		</header>
+		<p>Este es el texto de mi primer mensaje</p>
+
+		<!-- la etiqueta figure  fue agregada para ayudarnos a indentificar el contenido que es
+			parte de la informacion pero a la vez independiente de ella, como por ejemplo, fotos, videos, ilustraciones, etc, pues normalmente estos elementos son parte del contenido principal del documento, pero pueden ser estraidos o modivos a otro lado
+			sin afectar el contenido del documento.
+			*a menudo solemos enrriquezer el texto con imagenes, videos y demas la etiqeuta figure nos permite
+			envolver estos elementos visuales y diferenciarlos asi de la informacion mas relevante-->
+		<figure>
+			<img src="https://www.w3schools.com/tags/pic_trulli.jpg" width="25%">
+			<!-- normalmente las imagenes, videos dado que suelen ir acompañadas de algun texto descriptivo, podemos utilizar la etiqueta figcaption que nos permite encerrar este texto descriptivo con la eiqueta figure y establecer una relacion
+			entre ellos
+			*esya eiqueta debe de ir dentro de la etiqueta figure, (hija de figure) -->
+			<figcaption>Esta es la imagen del primer mensaje</figcaption>
+		</figure>
+		<footer>
+			<p>comentarios (0)</p>
+		</footer>
+	</section>
+
+	<aside>
+		<blockquote>Mensaje número uno</blockquote>
+		<blockquote>Mensaje número dos</blockquote>
+	</aside>
+	<footer>
+		Derechos Reservados &copy; 2022
+	</footer>
+</body>
+</html>
