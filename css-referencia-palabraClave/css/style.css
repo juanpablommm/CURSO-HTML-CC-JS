@@ -1,0 +1,9 @@
+/*una forma de referenciar las etiquetas html, para aplicarles estilos en el css
+es por palabra clave en donde, simplemente tenemos que escribir la palabra
+que hace referencia a la etiqueta html y se aplicara el efecto a todas
+esas etiquetas que esten el html,
+como por ejemplo modificamos todas las etiquetas p en el html con un 
+tamño de leta de 10 pixeles*/
+p{
+	font-size: 10px;/*tamaño de fuente*/
+}
