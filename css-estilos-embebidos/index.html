@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="description"  content="curso de html, css y javascript">
+	<meta name="keywords" content="html, css, javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Estilo Embebido</title>
+
+	<!-- mediante los estilos css embebidos tenemos otra alternativa para aplicar css 
+	al html, donde simplemente consta de declarar una etiqueta de style en el head, y dentro
+	de ella escribimos codigo css, en este caso afectamos a todas las etiqueta p con un tamaño de
+	letra de 1o pixeles, pero esta opcion tampoco es muy recomendable dado que no tenmos una estructura
+	html limpia del todo, por lo que el documento puede crecer mas de lo imnecesario.
+	Lo mas recomendable es aplicar estilos css desde un documento externo -->
+	<style>
+		p {
+			font-size: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Analizando estilos de css embebidos</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>Fotos</li>
+			<li>Videos</li>
+		</ul>
+	</nav>
+
+	<section>
+		<article>
+			<header>
+				<h1>Primer Comentarios</h1>
+			</header>
+			<p>Este es el primer comentario para probar un estilo css embebido</p>
+			<footer>Comentarios (0)</footer>
+		</article>
+	</section>
+
+	<article>
+			<header>
+				<h1>Segundo Comentarios</h1>
+			</header>
+			<p>Este es el segundo comentario para probar un estilo css embebido</p>
+			<footer>Comentarios (0)</footer>
+		</article>
+	</section>
+
+	<aside>
+		<blockquote>Mensaje número uno</blockquote>
+		<blockquote>Mensaje número dos</blockquote>
+	</aside>
+	<footer>
+		<small>Derechos Reservados &copy; 2022</small>
+	</footer>
+</body>
+</html>
