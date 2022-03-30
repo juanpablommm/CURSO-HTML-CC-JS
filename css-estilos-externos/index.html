@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="description"  content="curso de html, css y javascript">
+	<meta name="keywords" content="html, css, javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Estilo externos</title>
+	<!-- podemos agregar un estilo css externo mendiante la etiqueta link, como ya se habia visto
+	antes, la etiqueta link, nos permite vincular vincular codigos javascript,
+	codigo css, imagenes o iconos de archivos extenernos, el atributo type especifica el typo de archivo, pero este
+	ya no es necesario colocarlo en HTML5, basta simplemente con colocar el atributo rel y href, con el atributo rel
+	especificamos al navegador la realcion del cocumento que estamos incorporando, en este caso su valor stylesheet
+	especifica al navegador que la relacion de ese archivo con el index es la de un archivo de estilos CSS y en 
+	el atributo href va la direcion de donde esta ese arhivo y su nombree por ejemplo ./css/miestilo.css -->
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<h1>Analizando estilos de css externos</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>Fotos</li>
+			<li>Videos</li>
+		</ul>
+	</nav>
+
+	<section>
+		<article>
+			<header>
+				<h1>Primer Comentarios</h1>
+			</header>
+			<p>Este es el primer comentario para probar un estilo css embebido</p>
+			<footer>Comentarios (0)</footer>
+		</article>
+	</section>
+
+	<article>
+			<header>
+				<h1>Segundo Comentarios</h1>
+			</header>
+			<p>Este es el segundo comentario para probar un estilo css embebido</p>
+			<footer>Comentarios (0)</footer>
+		</article>
+	</section>
+
+	<aside>
+		<blockquote>Mensaje número uno</blockquote>
+		<blockquote>Mensaje número dos</blockquote>
+	</aside>
+	<footer>
+		<small>Derechos Reservados &copy; 2022</small>
+	</footer>
+</body>
+</html>

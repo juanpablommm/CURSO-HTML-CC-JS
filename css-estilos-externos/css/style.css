@@ -1,0 +1,6 @@
+/*desde este archivo externo estamos dandole estilos a la etiqueta p,
+sin necesidad de escribir esto en el html, quedando de una manera mas limpia ambos
+archivos*/
+p{
+	font-size: 10px;/*tamaño de fuente*/
+}
