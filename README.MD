@@ -14,3 +14,6 @@ desde el libro "el gran litbo de html, css y javascript"
 5. [Analisis de la etiqueta hgroup, pra agrupar etiqeutas h en el header](https://github.com/juanpablommm/CURSO-HTML-CSS-JS/tree/develop/hgroup)
 6. [Analisis de las etiquetas figure y figcaption para contenido como images, ilustraciones y demas...](https://github.com/juanpablommm/CURSO-HTML-CSS-JS/tree/develop/figure-and-figcaption)
 7. [Analisis de algunas etiquetas viejas y nuevas, para citado de texto, enfasis, informacion de contacto etc](https://github.com/juanpablommm/CURSO-HTML-CSS-JS/tree/develop/viejos-nuevos-elmentos)
+8. [Estilos CSS en linea, dentro de cada etiqueta html](https://github.com/juanpablommm/CURSO-HTML-CSS-JS/tree/develop/css-estilos-linea)
+9. [Estilos CSS embebidos dentro de la etiquete head del HTML](https://github.com/juanpablommm/CURSO-HTML-CSS-JS/tree/develop/css-estilos-embebidos)
+10. [Estilos CSS externos desde un archivo .css](https://github.com/juanpablommm/CURSO-HTML-CSS-JS/tree/develop/css-estilos-externos)
