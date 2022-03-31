@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="description"  content="curso de html, css y javascript">
+	<meta name="keywords" content="html, css, javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Estilo externos</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<h1>Analizando estilos de css externos</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>Fotos</li>
+			<li>Videos</li>
+		</ul>
+	</nav>
+
+	<section>
+		<article>
+			<header>
+				<h1>Primer Comentarios</h1>
+			</header>
+			<!-- al establecer el atributo id en una etiqueta html, podremos aplicar estilo css (tambien podremos usarla para el javascript para acceder a una etiqueta y modificar su texto por ejemplo) 
+			a esta etiqueta en particular sin tener que hacerlo en general, solo sera afectada la
+			eiquta que marquemos con el id y que en el archivo css le apliquemos estilo.
+			El id es un nombre unico que identificara dicha etiqeuta a la que se lo asignemos
+			por lo que no pueden haber etiquetas con el mismo id -->
+			<p id="parrafo1">Este es el primer comentario para probar un estilo css embebido</p>
+			<footer>Comentarios (0)</footer>
+		</article>
+	</section>
+
+	<article>
+			<header>
+				<h1>Segundo Comentarios</h1>
+			</header>
+			<p id="parrafo1">Este es el segundo comentario para probar un estilo css embebido</p>
+			<footer>Comentarios (0)</footer>
+		</article>
+	</section>
+
+	<aside>
+		<blockquote>Mensaje número uno</blockquote>
+		<blockquote>Mensaje número dos</blockquote>
+	</aside>
+	<footer>
+		<small>Derechos Reservados &copy; 2022</small>
+	</footer>
+</body>
+</html>
