@@ -1,0 +1,8 @@
+/*otra forma de referenciar las etiquetas html, para aplicarles estilos en el css
+es por id, en donde para poder hacer referencia a la etiqueta con ese id en el html
+necesitamos de este lado del css, colocar el # antes del id que asignamos a dicha
+etiqueta*/
+#parrafo1{
+	font-size: 10px;/*tamaño de fuente*/
+	color: red;/*establecemos color de fuente*/
+}
