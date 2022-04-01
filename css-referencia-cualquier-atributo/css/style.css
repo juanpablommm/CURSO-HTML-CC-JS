@@ -1,0 +1,46 @@
+/*otra forma de referenciar las etiquetas html, para aplicarles estilos en el css
+es por cualquier atributo declarado en la etiqueta html, para ello
+solo necesitamos escificar la etiqueta a cambiar, y entre [] especificar el atributo que esta etiqueta
+contine, de esta manera se cambiaran todas las etiquetas de x tipo que ocntengan x atributo.
+
+por ejemplo en esta, estoy cambiado el color de letra a todas las etiquetas ul que contengan
+el atributo de title*/
+ul[title]{
+	color: yellow;
+}
+
+/*pero puedo tambien ser mas especifico con este modo de refencia,
+puedo ahora establecer que se cambi el colo a todas las etiquetas input que contengla el atributo
+type con el valor de submit*/
+input[type="submit"]{
+	color: green;
+}
+
+/*e inclusive ser mas especifico e ir un paso mas adelante utilizando una clase de expresion regular desde
+css para referenciar las tiquetas en especifico, como por ejemplo:  modifcar a todas las etiquetas label
+que contenga el atributo title cuyo valor contenga el numero 2 a su final, con el $ antes del =*/
+label[title$="2"]{
+	color: indigo;
+}
+
+/*o aquellas etiquetas label cuyo valor del atributo title inice con label, atravez del ^ antes del =*/
+label[title^="label"]{
+	color: green;
+}
+
+/*e inclusive aquellas etiquetas label cuyo valor del atributo title contenga la palabra numero ya sea
+al final del valor, al comienzo o entre el medio, esto mediante *= */
+label[title*="numero"]{
+	background: gray;
+}
+
+
+
+
+
+.parrafo{
+	font-size: 20px;/*tamaño de fuente*/
+}
+h1.parrafo{
+	color: red;
+}
