@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="description"  content="curso de html, css y javascript">
+	<meta name="keywords" content="html, css, javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Estilo externos</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<h1 class="parrafo">Analizando estilos de css externos</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>Fotos</li>
+			<li>Videos</li>
+		</ul>
+	</nav>
+
+	<section>
+		<article>
+			<header>
+				<h1 class="parrafo">Primer Comentarios</h1>
+			</header>			
+			<!-- cunado utilizamos el atributo class podemos referencir varias etiquetas
+			html, para modificarlas en el css, a diferencia del atributo id, que solo permite
+			hacer una referenica unica a cada elemento, en cambio con el class podemos referenciar
+			a varias etiquetas con el mismo valor para ser modificadas en el css -->
+			<p class="parrafo">Este es el primer parrafo referenciadolo por atributo class en el html</p>
+			<footer>Comentarios (0)</footer>
+		</article>
+	</section>
+
+	<article>
+			<header>
+				<h1 class="parrafo">Segundo Comentarios</h1>
+			</header>
+			<p class="parrafo">Este es el segundo parrafo referenciadolo por atributo class en el html</p>
+			<footer>Comentarios (0)</footer>
+		</article>
+	</section>
+
+	<aside>
+		<blockquote>Mensaje número uno</blockquote>
+		<blockquote>Mensaje número dos</blockquote>
+	</aside>
+	<footer>
+		<small class="parrafo">Derechos Reservados &copy; 2022</small>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,18 @@
+/*otra forma de referenciar las etiquetas html, para aplicarles estilos en el css
+es por class, en donde para poder hacer referencia a la etiqueta con ese valor
+asinado al atributo class en el html.
+necesitamos de este lado del css, colocar el . antes del class que asignamos a dicha
+etiqueta, pero podemos crear reglas de estilos mas complejas al utilizar class.
+
+afectamos en geral a todos las etiquetas html con ese valor de class"parrafo"*/
+.parrafo{
+	font-size: 20px;/*tamaño de fuente*/
+}
+
+/*pero tambiem podemos espcificar a que etiquetas en particular que compartan
+el class afectar, por ejemplo:  solo afectara a h1, apezar que comparte el mismo
+class espeficicamos que solo queremos que se modifiquen las etiqueta h1 que contengan
+el class"parrafo"*/
+h1.parrafo{
+	color: red;
+}
