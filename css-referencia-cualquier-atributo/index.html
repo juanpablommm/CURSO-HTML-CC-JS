@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="description"  content="curso de html, css y javascript">
+	<meta name="keywords" content="html, css, javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Estilo externos</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<h1 class="parrafo">Analizando estilos de css externos, referencia por cualquier atributo</h1>
+	</header>
+
+	<nav>
+		<!-- puedo jacer una refencia a la etiqueta ul que contenga el atributo title desde el css
+		y cmbiarles el estilo -->
+		<ul title="no se">
+			<li>Home</li>
+			<li>Fotos</li>
+			<li>Videos</li>
+		</ul>
+	</nav>
+
+	<section>
+		<article>
+			<header>
+				<h1 class="parrafo">Primer Comentarios</h1>
+			</header>			
+			<p class="parrafo">Este es el primer parrafo referenciadolo por atributo cualquier atributo en el html</p>
+			<footer>Comentarios (0)</footer>
+		</article>
+	</section>
+
+	<article>
+			<header>
+				<h1 class="parrafo">Segundo Comentarios</h1>
+			</header>
+			<p class="parrafo">Este es el segundo parrafo referenciadolo por atributo cualquier atributo en el html</p>
+			<footer>Comentarios (0)</footer>
+		</article>
+
+		<!-- puedo  referenciar estas etiquetas input que contien el atributo
+			type con el mismo valor y cambiarles el estilo-->
+		<form>
+			<input type="submit" name="texto1" value="Enviar">
+		</form>
+		<form>
+			<input type="submit" name="texto2" value="Enviar">
+		</form>
+		<label title="labenumero1">primera linea</label><br>
+		<label title="labenumero2">segunda linea</label><br>
+		<label title="labelnumerotres">tercera linea</label><br>
+		<label title="labelnumerocuatro">cuarta linea</label>
+	</section>
+
+	<aside>
+		<blockquote>Mensaje número uno</blockquote>
+		<blockquote>Mensaje número dos</blockquote>
+	</aside>
+	<footer>
+		<small class="parrafo">Derechos Reservados &copy; 2022</small>
+	</footer>
+</body>
+</html>
