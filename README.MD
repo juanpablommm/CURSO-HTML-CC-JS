@@ -17,3 +17,6 @@ desde el libro "el gran litbo de html, css y javascript"
 8. [Estilos CSS en linea, dentro de cada etiqueta html](https://github.com/juanpablommm/CURSO-HTML-CSS-JS/tree/develop/css-estilos-linea)
 9. [Estilos CSS embebidos dentro de la etiquete head del HTML](https://github.com/juanpablommm/CURSO-HTML-CSS-JS/tree/develop/css-estilos-embebidos)
 10. [Estilos CSS externos desde un archivo .css](https://github.com/juanpablommm/CURSO-HTML-CSS-JS/tree/develop/css-estilos-externos)
+11. [Referenciado etiquetas html por el atributo id(una sola etiqueta con el mismo valor en el atributo id) para aplicar estilos css]()
+12. [Referenciado etiquetas html por el atributo class para aplicar estilos css]()
+13. [Referenciado etiquetas html con cualquier atributo para aplicar estilos css]()
